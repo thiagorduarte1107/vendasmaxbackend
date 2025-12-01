@@ -105,6 +105,18 @@ backend/
 
 ## 🔐 AUTENTICAÇÃO
 
+### **Credenciais de Teste:**
+
+**Administrador:**
+- Email: `admin@vendamax.com`
+- Senha: `admin123`
+- Perfil: ADMIN
+
+**Vendedor:**
+- Email: `vendedor@vendamax.com`
+- Senha: `vendedor123`
+- Perfil: VENDEDOR
+
 ### **Login:**
 ```http
 POST /api/auth/login
