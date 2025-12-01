@@ -12,9 +12,9 @@ spring:
   # DATASOURCE - SQL SERVER
   # =====================================================
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=vendamax;encrypt=false;trustServerCertificate=true
-    username: vendamax_user
-    password: VendaMax2024
+    url: ${SPRING_DATASOURCE_URL:jdbc:sqlserver://localhost:1433;databaseName=vendamax;encrypt=false;trustServerCertificate=true}
+    username: ${SPRING_DATASOURCE_USERNAME:vendamax_user}
+    password: ${SPRING_DATASOURCE_PASSWORD:VendaMax2024}
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     
     hikari:
