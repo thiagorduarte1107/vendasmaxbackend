@@ -1,19 +1,22 @@
-# 🚀 VENDAMAX API - BACKEND
+# 🚀 VendaMax API - Backend
 
-Sistema de Gestão Comercial - API REST com Spring Boot
+API REST do sistema VendaMax desenvolvida com Spring Boot.
+
+> **Frontend:** https://github.com/thiagorduarte1107/vendamaxfrontend
 
 ---
 
-## 📋 TECNOLOGIAS
+## 📋 Tecnologias
 
 - **Java 17**
 - **Spring Boot 3.2.0**
 - **Spring Data JPA**
 - **Spring Security + JWT**
 - **SQL Server 2022**
-- **Swagger/OpenAPI**
+- **Swagger/OpenAPI 3.0**
 - **Lombok**
 - **Maven**
+- **Docker**
 
 ---
 
@@ -189,18 +192,27 @@ docker run -p 8080:8080 vendamax-api
 
 ---
 
-## 📝 PRÓXIMOS PASSOS
+## ✅ Status do Projeto
 
-1. ✅ Projeto Spring Boot criado
-2. ⏳ Criar entities JPA
-3. ⏳ Criar repositories
-4. ⏳ Criar services
-5. ⏳ Criar controllers REST
-6. ⏳ Implementar autenticação JWT
-7. ⏳ Documentar com Swagger
-8. ⏳ Criar testes unitários
-9. ⏳ Integrar com frontend Angular
+| Funcionalidade | Status |
+|----------------|--------|
+| ✅ Autenticação JWT | Completo |
+| ✅ Produtos | Completo |
+| ✅ Categorias | Completo |
+| ✅ Clientes | Completo |
+| ✅ Vendas | Completo |
+| ✅ Caixa | Completo |
+| ✅ Dashboard | Completo |
+| ✅ Swagger | Completo |
+| ⏳ Comandas | Pendente |
 
 ---
 
-**🎉 VENDAMAX API - PRONTO PARA DESENVOLVIMENTO!**
+## 📦 Deploy
+
+- **Render:** https://render.com (suspenso - aguardando banco remoto)
+- **Docker:** Configurado e pronto para deploy
+
+---
+
+**🎉 VendaMax API - Sistema em Produção!**

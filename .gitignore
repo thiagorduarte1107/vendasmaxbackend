@@ -53,3 +53,13 @@ Thumbs.db
 
 # Spring Boot
 spring-boot-*.log
+
+# Scripts SQL (local, não commitar)
+*.sql
+
+# Scripts Windows (local, não commitar)
+*.bat
+
+# Documentação local (não commitar)
+*-SUMMARY.md
+CONFIGURAR-*.md
